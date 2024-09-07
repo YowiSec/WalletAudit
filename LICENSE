@@ -1,24 +1,29 @@
-This is free and unencumbered software released into the public domain.
+Copyright (c) 2024 YowiSec
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+All rights reserved.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+Permission is hereby granted to any individual or legal entity (the "Licensee") obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for personal, non-commercial purposes only, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+1. License Grant:
+   - This license allows the Licensee to view, use, and modify the source code of the Software solely for personal, non-commercial use.
+   - The Licensee is not granted any rights to distribute, sublicense, sell, or otherwise transfer copies of the Software, whether in original or modified form, without the express written permission of YowiSec.
 
-For more information, please refer to <https://unlicense.org>
+2. Restrictions:
+   - The Software may not be used for commercial purposes, including, but not limited to, providing services or products for a fee using the Software, or including the Software in a product or service that is sold or otherwise commercially exploited.
+   - Licensee may not distribute or disclose the Software or any portion of it to any third party without express written consent from YowiSec.
+   - Any attempt to reverse-engineer, decompile, or disassemble the Software beyond the explicit permissions granted is strictly prohibited.
+
+3. Ownership:
+   - The Software is and shall remain the exclusive property of YowiSec. No rights or ownership interests are transferred to the Licensee through this license.
+   
+4. Modifications:
+   - The Licensee may modify the Software for personal use but may not distribute such modifications without express written consent from YowiSec. Any modifications made by the Licensee shall be governed by the terms of this license.
+
+5. Termination:
+   - This license is automatically terminated if the Licensee breaches any of the terms and conditions set forth herein. Upon termination, the Licensee must destroy all copies of the Software in their possession.
+
+6. Disclaimer of Warranty:
+   - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL YOWISEC BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. Limitation of Liability:
+   - In no event shall YowiSec be liable to the Licensee for any indirect, incidental, special, or consequential damages, including but not limited to lost profits or data, arising out of the use of or inability to use the Software, even if YowiSec has been advised of the possibility of such damages.
