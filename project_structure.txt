@@ -1,0 +1,48 @@
+wallet-audit/
+│
+├── Cargo.toml              # Monorepo-level configuration
+├── README.md               # Project documentation
+├── LICENSE                 # Licensing information
+│
+├── frontend/               # Frontend WebAssembly code
+│   ├── src/                # Frontend source code
+│   │   ├── main.rs         # Entry point for the Wasm app
+│   │   ├── wallet_connect.rs   # WalletConnect integration
+│   │   ├── api.rs              # API interaction with Etherscan
+│   │   ├── ui/                 # Shadcn UI components
+│   │   └── utils.rs            # Utility functions (e.g., for token approvals)
+│   │
+│   ├── static/             # Static assets for the frontend (HTML, CSS)
+│   │   ├── index.html      # Main entry page
+│   │   ├── styles.css      # Basic CSS styles
+│   │   └── favicon.ico     # Optional favicon
+│   │
+│   ├── Cargo.toml          # Frontend crate configuration
+│   └── build.rs            # Wasm build configuration script
+│
+├── backend/                # Backend logic (optional, depends on app needs)
+│   ├── src/                # Backend source code
+│   │   ├── main.rs         # Entry point for backend services (if needed)
+│   │   ├── auth.rs         # API key and WalletConnect handling
+│   │   ├── etherscan.rs    # Etherscan API interactions (token approvals, etc.)
+│   │   ├── scoring.rs      # Wallet health score computation
+│   │   └── ai_strategy.rs  # AI-powered DeFi strategy logic (optional for premium)
+│   │
+│   ├── Cargo.toml          # Backend crate configuration
+│   └── config/             # Optional backend configuration files (e.g., for API keys)
+│
+├── onchain/                # Foundry-rs forge project to handle onchain interactions
+│   ├── src/                # Onchain Solidity source code
+│   │   ├── MEVScanner.sol  # MEV scanner BOT
+│   │   └── main.sol        # Handles other onchain interactions
+│   │
+│   ├── Foundry.toml        # Main foundry.toml file
+│
+├── scripts/                # Helper scripts (for building, deploying)
+│   ├── build_wasm.sh       # Script to build WebAssembly
+│   └── deploy_fleek.sh     # Script to automate Fleek deployment
+│
+│
+└── .github/                # CI/CD configuration for GitHub actions
+    ├── workflows/          # Automated build and test flows
+    └── deploy.yml          # Deployment config (optional)
